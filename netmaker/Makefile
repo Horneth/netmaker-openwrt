@@ -24,7 +24,7 @@ PKG_MAINTAINER:=sbilly <superli_1980@hotmail.com>
 PKG_BUILD_DEPENDS:=golang/host
 PKG_BUILD_PARALLEL:=1
 PKG_USE_MIPS16:=0
-PGG_CONFIG_PATH:=/usr/lib/x86_64-linux-gnu/pkgconfig
+PKG_CONFIG_PATH:=/usr/lib/x86_64-linux-gnu/pkgconfig
 
 GO_PKG:=github.com/gravitl/netmaker
 GO_PKG_INSTALL_EXTRA:=extra/file extra/dir
